@@ -1,0 +1,15 @@
+{
+    "name": "vmybook/sentry",
+    "description": "Sentry Logger Module",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "require": {
+        "yiisoft/yii2": "*",
+        "notamedia/yii2-sentry": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "vmybook\\sentry\\": "src/"
+        }
+    }
+}
